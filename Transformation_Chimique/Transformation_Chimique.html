@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>La transformation chimique</title>
+    <link rel="stylesheet" type="text/css" media="print,screen" 
+      href="https://sciencesingenieur.github.io/Styles/styles.css"/>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+  <body>
+    <section>
+      <h1>La transformation chimique</h1>
+      
+      <h2>Le système chimique</h2>
+      
+      <h3>Constituants physico-chimiques</h3>
+      
+      <div>
+        <u>Définition&#x202f;:</u><br />
+        Un système physico-chimique est défini par la donnée des constituants physico-chimiques qui
+        le composent. Un constituant physico-chimique est une espèce chimique caractérisée par sa
+        formule chimique et son état physique.
+      </div>
+      
+      <div>
+        <u>Exemples&#x202f;:</u><br />
+        \(\rm{H_2O_{(l)}}\), \(\rm{H_2O_{(s)}}\), \(\rm{CO_{2(g)}}\)
+      </div>
+      
+      <h3>La mole et les grandeurs molaires</h3>
+      
+      <div>
+        Les réactions chimiques ont lieu à l’échelle des espèces chimiques, de l’ordre du nanomètre.
+        À notre échelle macroscopique, on a besoin d’un outil pour dénombrer les espèces.
+      </div>
+      
+      <div>
+        <u>Définition&#x202f;:</u><br />
+        Une <b>mole</b> contient exactement
+        \(\mathcal{N}_A = 6.02214073 \times 10^{23}\,\rm{mol}^{-1}\) entités élémentaires.
+      </div>
+      
+      <div>
+        L’ancienne définition, qui n’est plus valide depuis novembre 2018, était <q>la mole est la
+        quantité de matière d’un système contenant autant d’entités élémentaires qu’il y a d’atomes
+        dans \(0.012\,\rm{kg}\) de carbone 12</q>.
+      </div>
+      
+      <h4>Masse molaire d’un nucléide</h4>
+      
+      <div>
+        La masse molaire d’un nucléide est la masse d’une mole du nucléide.<br />
+        Par exemple, pour le silicium 28, sa masse molaire vaut \(M({}^{28}_{14}\rm{Si}) =
+        27.98\,\rm{g/mol} \approx 28\,\rm{g/mol}\).<br />
+        Il s’agit environ du nombre de nucléon A du nucléide.
+      </div>
+      
+      <h4>Masse molaire atomique d’un élément</h4>
+      
+      <div>
+        La masse molaire atomique d’un élément est la  masse d’une mole d’un élément en intégrant
+        les isotopes de celui-ci. Généralement, c’est la masse molaire qu’on trouve sur le tableau
+        périodique.
+      </div>
+      
+      <h4>Masse molaire moléculaire</h4>
+      
+      <div>
+         La masse molaire moléculaire est la masse molaire d’une molécule.
+      </div>
+      
+      <h4>Volume molaire</h4>
+      
+      <div>
+        Le volume molaire est le volume occupé par une mole, son unité est le \(\rm{L/mol}\). Cette
+        grandeur est surtout utile pour les gaz.<br />
+        Dans le cas du gaz parfait, on verra que l’on a \(V_m = V/n = RT/p\), le volume molaire ne
+        dépend donc que de la température et de la pression. Sous les conditions standards
+        \(T = 273\,\rm{K}\) et \(p = 1\,\rm{bar}\), on a \(V_m \approx 22.4\,\rm{L/mol}\).
+      </div>
+      
+      <h3>Corps purs et mélanges</h3>
+      
+      <div>
+        <u>Définition&#x202f;:</u><br />
+        Un <b>corps pur</b> est un constituant unique caractérisé par une formule chimique définie.
+        Il peut être de deux type&#x202f;:
+        <ul>
+          <li>un corps pur <b>simple</b> s’il est composé d’un seul type d’élément
+            (\(\rm{Fe_{(s)}}\), \(\rm{Hg_{(l)}}\), \(\rm{Br_{2(l)}}\), \(\rm{O_{2(g)}}\), etc.)</li>
+          <li>un corps pur <b>composé</b> s’il est composé de plusieurs types d’éléments
+            (\(\rm{NaCl_{(s)}}\), \(\rm{H_2O_{(l)}}\), \(\rm{CO_{2(g)}}\), etc.)</li>
+        </ul>
+        Un <b>mélange</b> est un système physico-chimique constitué de plusieurs espèces chimiques.
+      </div>
+      
+      <h4>La concentration</h4>
+      
+      <div>
+        En chimie des solutions, généralement les espèces sont plongées dans une grande quantité de
+        solvant. Pour notre part, nous utiliserons toujours le solvant eau.
+      </div>
+      
+      <div>
+        <u>Définition&#x202f;:</u><br />
+        Dans le cas d’une phase homogène, la <b>concentration</b> d’une espèce X est donnée par
+        $$
+          \quad \boxed{ c_X = [X] = \frac{n_X}{V} }
+        $$
+        avec \(n_X\) le nombre de moles de l’espèce et \(V\) le volume de la solution. Elle
+        s’exprime généralement pour les solutions en \(\rm{mol/L}\).<br />
+        Dans le cas d’une espèce totalement dissoute dans l’eau, on parle d’espèce sous phase
+        <b>aqueuse</b>.
+      </div>
+      
+      <div>
+        La notation \([X]\) est une notation standard de la concentration de l’espèce X.
+      </div>
+      
+      <div>
+        Attention&#x202f;! Cette notation n’a aucun sens pour l’eau (car on ne peut dissoudre de
+        l’eau dans l’eau) et pour un solide dans de l’eau (car il s’agit de deux phases distinctes).
+      </div>
+      
+      <h4>La pression partielle d’un gaz</h4>
+      
+      <div>
+        Lors d’un mélange de gaz, la concentration n’est pas l’outil adapté à la mesure des
+        quantités.
+      </div>
+      
+      <div>
+        <u>Définition&#x202f;:</u><br />
+        La <b>fraction molaire</b> \(x_X\) de l’espèce X est le nombre de moles de cette espèce
+        \(n_X\) rapporté au nombre de moles total \(n_T\) soit&#x202f;:
+        $$
+          \quad \boxed{ x_X = \frac{n_X}{n_T} }
+        $$
+      </div>
+      
+      <div>
+        <u>Définition&#x202f;:</u><br />
+        Pour un mélange de gaz, on définit la <b>pression partielle</b> \(p_i\) d’un gaz \(i\) comme
+        la pression qu’aurait l’échantillon si ce gaz était seul. On a&#x202f;:
+        $$
+          \quad \boxed{ p_i = x_i \times p }
+        $$
+        avec \(x_i\) la fraction molaire du gaz \(i\) et \(p\) la pression totale de l’échantillon.
+      </div>
+      
+      <h2>Le réaction chimique</h2>
+      
+      <h3>Les transformations chimiques</h3>
+      
+      <div>
+        <u>Définition&#x202f;:</u><br />
+        Au cours d’une transformation chimique, il y a réorganisation des atomes au sein des
+        molécules. On observe la rupture et la formation de nouvelles liaisons entre les atomes.
+        Ceux-ci ne sont ni détruits, ni créés.
+      </div>
+      
+      <h3>L’équation chimique</h3>
+      
+      <div>
+        Une transformation chimique correspond au passage d’un système chimique d’un état initial
+        vers un état final. Cette transformation se note à l’aide d’une équation chimique bilan de
+        la forme&#x202f;:
+        $$
+          \quad \text{réactif} \rightarrow \text{produits}
+        $$
+      </div>
+      
+      <div>
+        L’équation bilan traduit macroscopiquement la réorganisation de la matière, avec
+        conservation de tout élément. La réaction doit donc être <b>équilibrée</b>, il doit y avoir
+        le même nombre d’atomes de chaque éléments dans les réactifs et dans les produits.
+      </div>
+      
+      <div>
+        <u>Exemple&#x202f;:</u><br />
+        $$
+          \quad \rm{NaCl_{(s)}} \rightarrow \rm{Na^+_{(aq)}} + \rm{Cl^-_{(aq)}}
+        $$
+      </div>
+      
+      <div>
+        <u>Définition&#x202f;:</u><br />
+        On définit le <b>nombre stœchiométrique</b> \(\nu_X\) (ou coefficient stœchiométrique) d’un
+        élément X comme le nombre de fois où cet élément apparaît dans l’équation chimique. Il est
+        positif pour les produits et négatif pour les réactifs.<br />
+        Ce nombre doit être pris le plus petit possible (entier ou éventuellement demi-entier).
+      </div>
+      
+      <div>
+        <u>Exemple&#x202f;:</u><br />
+        Dans l’exemple du chlorure de sodium, on a \(\nu_{NaCl}=-1\), \(\nu_{Na^+}=+1\) et
+        \(\nu_{Cl^-}=+1\).
+      </div>
+      
+      <h3>Le tableau d’avancement</h3>
+      
+      <div>
+        <u>Définition&#x202f;:</u><br />
+        Le <b>tableau d’avancement</b> est l’outil central pour étudier une réaction chimique.<br />
+        Il est composé de 3 ou 4 lignes, comprenant&#x202f;:
+        <ul>
+          <li>l’équation bilan</li>
+          <li>la composition du système en mole à l’état initial</li>
+          <li>la composition du système en mole à l’instant \(t\)</li>
+          <li>la composition du système en mole à l’instant final</li>
+        </ul>
+      </div>
+      
+      <div>
+        Le tableau peut aussi être réalisé en concentration (\(\rm{mol/L}\)) lorsque tous les
+        produits et réactifs sont en solution dans le même volume.
+      </div>
+      
+      <div>
+        Attention&#x202f;! Dans la ligne de l’état initial, on met la quantité de moles qui a été
+        placée dans le réacteur chimique (souvent le bécher). Il n’y a aucune raison de faire
+        apparaître les nombres stœchiométrique dans cette ligne.
+      </div>
+      
+      <div>
+        <u>Définition&#x202f;:</u><br />
+        <b>L’avancement</b> (en mole) du système permet de caractériser le degré d’avancement de la
+        réaction entre son état final et son état initial. Il se note, au temps \(t\),
+        \(\xi(t)\).<br />
+        La quantité de matière d’un élément X au temps \(t\) est donnée par
+        $$
+          \quad \boxed{ n_X(t) = n^0_X + \nu_X \xi(t) }
+        $$
+        avec \(n^0_X\) la quantité de matière initiale de l’élément et \(\nu_X\) le nombre
+        stœchiométrique de celui-ci.
+      </div>
+      
+      <div>
+         Cette quantité de matière se comprend. Si on considère une réalisation de la réaction
+         chimique, c’est-à dire la rencontre du nombre exact d’atomes concernés, alors un nombre
+         d’atomes de produits correspondant aux nombres stœchiométrique vont apparaître alors qu’un
+         nombre d’atomes de réactifs correspondant aux nombres stœchiométrique vont disparaître.
+      </div>
+      
+      <div>
+        <u>Propriété&#x202f;:</u><br />
+        L’avancement compte, en moles, combien de fois la réaction chimique a eu lieu au niveau
+        microscopique.
+      </div>
+      
+      <div>
+        <u>Exemple&#x202f;:</u><br />
+        <table>
+          <caption>Tableau d’avancement de la réaction du chlorure d’hydrogène avec du
+            dioxygène</caption>
+          <tr>
+            <td style="border: 0"></td>
+            <td style="border: 0">\(4\rm{HCl}\)</td>
+            <td style="border: 0" colspan="2">\(+\)</td>
+            <td style="border: 0">\(\rm{O_2}\)</td>
+            <td style="border: 0" colspan="2">\(\rightarrow\)</td>
+            <td style="border: 0">\(2\rm{H_2O}\)</td>
+            <td style="border: 0" colspan="2">\(+\)</td>
+            <td style="border: 0">\(2\rm{Cl_2}\)</td>
+          </tr>
+          <tr>
+            <td>état initial (mol)</td>
+            <td colspan="2">\(n_1\)</td>
+            <td style="border-right: double" colspan="3">\(n_2\)</td>
+            <td colspan="3">\(n_3\)</td>
+            <td colspan="2">\(n_4\)</td>
+          </tr>
+          <tr>
+            <td>\(t\) (mol)</td>
+            <td colspan="2">\(n_1 - 4 \xi(t)\)</td>
+            <td style="border-right: double" colspan="3">\(n_2 - \xi(t)\)</td>
+            <td colspan="3">\(n_3 + 2 \xi(t)\)</td>
+            <td colspan="2">\(n_4 + 2 \xi(t)\)</td>
+          </tr>
+        </table>
+      </div>
+      
+      <h2>Constante d’équilibre et quotient de réaction</h2>
+      
+      <h3>L’activité chimique</h3>
+      
+      <div>
+        L’activité chimique est un nombre thermodynamique sans dimension qui permet de quantifier
+        l’influence de la quantité de matière sur la réalisation, ou non, d’une certaine équation
+        chimique.
+      </div>
+      
+      <div>
+        <u>Définition&#x202f;:</u><br />
+        Si le constituant physico-chimique est
+        <ul>
+          <li>solide, alors son activité vaut \(a_s = 1\)</li>
+          <li>liquide, alors son activité vaut \(a_\ell = 1\)</li>
+          <li>un solvant, par exemple l’eau liquide dans les solutions aqueuses, alors son activité
+            vaut \(a_\text{solvant} = 1\)</li>
+          <li>une solution diluée de concentration inférieure à \(1\,\rm{mol/L}\), alors son
+          activité vaut \(a_i = c_i/c_0\) avec \(c_i\) la concentration (en \(\rm{mol/L}\))
+          et \(c_0=1\,\rm{mol/L}\)</li>
+          <li>gazeux, alors son activité vaut \(a_i = p_i/p_0\) avec \(p_i\) la pression
+          partielle (en bar) et \(p_0 = 1\,\rm{bar}\)</li>
+      </div>
+      
+      <div>
+        Les nombres \(c_0\) et \(p_0\) servent à a dimensionner l’activité chimique des gaz et des
+        solutions diluées.<br />
+        On rappelle que \(1\,\rm{bar} = 10^5\,\rm{Pa}\). Le bar reste l’unité la plus courante pour
+        les pressions des gaz en chimie.
+      </div>
+      
+      <h3>Le quotient de réaction</h3>
+      
+      <div>
+        <u>Définition&#x202f;:</u><br />
+        Soit la réaction chimique&#x202f;:
+        $$
+          \quad \nu_{A_1}A_1 + \nu_{A_2}A_2 + \cdots + \nu_{A_n}A_n \rightarrow
+            \nu_{B_1}B_1 + \nu_{B_2}B_2 + \cdots + \nu_{B_m}B_m
+        $$
+        On définit le <b>quotient de réaction</b> à l’instant \(t\), noté \(Q_r(t)\), par
+        $$
+          \quad \boxed{
+            Q_r(t) = \frac {\prod a^{\nu_{B_i}}_{B_i}(t)} {\prod a^{|\nu_{A_i}|}_{A_i}(t)}
+            }
+        $$
+        soit le produit de l’activité des produits puissance leur nombre stœchiométrique divisé par
+        le produit de l’activité des réactifs puissance la valeur absolue de leur nombre
+        stœchiométrique. Le quotient de réaction est sans dimension.
+      </div>
+      
+      <div>
+        Attention&#x202f;! Ce quotient ne peut être calculé qu’après avoir écrit le tableau
+        d’avancement de la réaction. En effet, il dépend des nombres stœchiométriques, donc de
+        l’écriture de la réaction.
+      </div>
+      
+      <div>
+        Si on considère la réaction inverse, par définition, on a \(Q_{r,\text{inverse}} = 1/Q_r\).
+      </div>
+      
+      <h3>Loi d’action des masses et constante d’équilibre</h3>
+      
+      <div>
+        <u>Définition&#x202f;:</u><br />
+        Toutes les réactions chimiques sont caractérisées par une <b>constante d’équilibre
+        thermodynamique</b> qui dépend uniquement de la température notée \(K(T)\).<br />
+        La <b>loi d’action des masses</b> indique que, lorsque la réaction chimique est équilibrée,
+        on a&#x202f;:
+        $$
+          \quad \boxed{ Q_r = K(T) }
+        $$
+        Une constante d’équilibre est sans dimension.
+      </div>
+      
+      <div>
+        <u>Propriété&#x202f;:</u><br />
+        Si on connaît la constante d’équilibre \(K(T)\) d’une réaction chimique, alors par
+        définition du quotient de réaction, la constante d’équilibre de la réaction inverse vaut
+        \(K_{\text{inverse}}(T) = 1/K(T)\).
+      </div>
+      
+      <div>
+        À l’équilibre chimique, la loi d’action des masses est vérifiée. Si on constate
+        expérimentalement que ce n’est pas le cas, c’est que la réaction chimique est trop lente
+        pour atteindre l’équilibre en un temps raisonnable. On parle de <b>blocage cinétique</b>.
+      </div>
+      
+      <h3>Prévision du sens d’une réaction chimique</h3>
+      
+      <div>
+        <u>Propriété&#x202f;:</u><br />
+        Pour prévoir le sens d’une réaction chimique, on calcule le quotient de réaction initial
+        \(Q_{r,i}\) puis&#x202f;:
+        <ul>
+          <li>si \(Q_{r,i}\lt K(T)\), la réaction ira spontanément dans le sens <b>direct</b></li>
+          <li>si \(Q_{r,i}\gt K(T)\), la réaction ira spontanément dans le sens <b>indirect</b></li>
+        </ul>
+        On retiendra le graphique de \(Q_r\) ci-dessous&#x202f;:
+        <figure>
+          <img src="sens_reaction.png">
+        </figure>
+      </div>
+      
+      <h3>Réactions équilibrées et réactions totales</h3>
+      
+      <div>
+        Si \(K\) est de l’ordre ou plus grand que \(10^3\), alors à l’équilibre, l’activité des
+        produits sera très grande devant l’activité des réactifs, les produits seront donc très
+        majoritaires à l’équilibre. La réaction est totale.
+      </div>
+      
+      <div>
+        À l’inverse, si \(K\) est de l’ordre ou plus petit que \(10^{−3}\), alors à l’équilibre,
+        l’activité des réactifs sera très grande devant l’activité des produits, les réactifs seront
+        donc très majoritaires à l’équilibre. La réaction est aussi totale, mais dans le sens
+        indirect.
+      </div>
+      
+      <div>
+        <u>Propriété&#x202f;:</u><br />
+        Une réaction chimique est qualifiée de <b>totale</b> si sa constante d’équilibre est très
+        grande devant \(10^3\) ou très petite devant \(10^{−3}\). Dans ce cas, on écrit la réaction
+        dans le sens d’une constante d’équilibre supérieure à 1 et on note&#x202f;:
+        $$
+          \quad \text{réactif} \rightarrow \text{produits}
+        $$
+        Dans tous les autres cas, la réaction sera a priori qualifiée d’<b>équilibrée</b>. Elle peut
+        aller dans les deux sens selon les quantités de produits et de réactifs mises en contact. On
+        note&#x202f;:
+        $$
+          \quad \text{réactif} \rightleftharpoons \text{produits}
+        $$
+      </div>
+      
+      <h4>État final d’une réaction chimique totale</h4>
+      
+      <div>
+        <u>Propriété&#x202f;:</u><br />
+        Certaines réactions sont dites <b>totales</b> c’est-à-dire qu’elles continuent jusqu’à
+        épuisement d’un des réactifs. Le réactif qui s’épuisera sera dit <b>réactif limitant</b>.
+      </div>
+      
+      <div>
+         Pour trouver le réactif limitant, on cherche l’avancement final \(\xi_f\) qui, dans le
+         tableau d’avancement, conduira à une disparition d’un des réactifs. Il faut résoudre les
+         équations \(n^0_X + \nu_X \xi_f=0\) pour tous les réactifs et choisir le \(\xi_f\) minimal.
+         Si on ne prend pas le minimal, certains réactifs seront en quantité négative dans le
+         tableau d’avancement, ce qui est absurde.
+      </div>
+      
+      <div>
+        Par exemple, reprenons le tableau d’avancement de la réaction du chlorure d’hydrogène avec
+        du dioxygène et supposons que \(n_1=n_2 = 1\,\rm{mol}\) et que \(n_3=n_4 = 0\,\rm{mol}\).
+        En supposant que la réaction est totale, on a l’avancement \(\xi_f=0,25\,\rm{mol}\) si on
+        épuise \(\rm{HCl}\) ou \(\xi_f=1\,\rm{mol}\) si on épuise \(\rm{O_2}\). L’avancement final
+        est donc le premier et \(\rm{HCl}\) est le réactif limitant.
+        <table>
+          <caption>Tableau d’avancement de la réaction du chlorure d’hydrogène avec du
+            dioxygène dans le cas d’une réaction totale</caption>
+          <tr>
+            <td style="border: 0"></td>
+            <td style="border: 0">\(4\rm{HCl}\)</td>
+            <td style="border: 0" colspan="2">\(+\)</td>
+            <td style="border: 0">\(\rm{O_2}\)</td>
+            <td style="border: 0" colspan="2">\(\rightarrow\)</td>
+            <td style="border: 0">\(2\rm{H_2O}\)</td>
+            <td style="border: 0" colspan="2">\(+\)</td>
+            <td style="border: 0">\(2\rm{Cl_2}\)</td>
+          </tr>
+          <tr>
+            <td>état initial (mol)</td>
+            <td colspan="2">\(1\)</td>
+            <td style="border-right: double" colspan="3">\(1\)</td>
+            <td colspan="3">\(0\)</td>
+            <td colspan="2">\(0\)</td>
+          </tr>
+          <tr>
+            <td>\(t\) (mol)</td>
+            <td colspan="2">\(1 - 4 \xi(t)\)</td>
+            <td style="border-right: double" colspan="3">\(1 - \xi(t)\)</td>
+            <td colspan="3">\(2 \xi(t)\)</td>
+            <td colspan="2">\(2 \xi(t)\)</td>
+          </tr>
+          <tr>
+            <td>état final (mol)</td>
+            <td colspan="2">\(0\)</td>
+            <td style="border-right: double" colspan="3">\(0,75\)</td>
+            <td colspan="3">\(0,5\)</td>
+            <td colspan="2">\(0,5\)</td>
+          </tr>
+        </table>
+      </div>
+      
+      <div>
+        <u>Définition&#x202f;:</u><br />
+        On dit que les réactifs sont en <b>proportion stœchiométrique</b> lorsque le nombre de mole
+        initial de chaque constituant est tel qu’il n’y ait plus de réactifs si la réaction est
+        totale.
+      </div>
+      
+      <div>
+        Par exemple, dans la réaction précédente, cela correspond à 4 fois plus de \(\rm{HCl}\) que
+        de \(\rm{O_2}\). Une telle proportion est directement proportionnelle aux nombres
+        stœchiométriques présents dans l’équation bilan.
+      </div>
+      
+      <h3>Exemples et applications</h3>
+      
+      <h4>Méthode pour étudier une réaction chimique</h4>
+      
+      <div>
+        Pour étudier une réaction chimique on utilisera la méthode suivante.
+        <ol>
+          <li>Écrire la réaction chimique, puis le tableau d’avancement en remplissant la ligne
+            initiale et la ligne à l’instant \(t\)&#x202f;:
+            <ul>
+              <li>si cela est spécifié dans l’énoncé ou si la constante d’équilibre est très grande
+                devant \(10^3\) ou très petite devant \(10^{−3}\), considérer la réaction comme
+                totale</li>
+              <li>sinon il faut&#x202f;:
+                <ul>
+                  <li>identifier l’état physique de chaque constituant pour écrire son activité</li>
+                  <li>calculer \(Q_r(t)\) avec l’avancement \(\xi(t)\)</li>
+                  <li>vérifier si nécessaire le sens de la réaction en comparant \(Q(0)\) et
+                    \(K(T)\)</li>
+                  <li>résoudre l’équation \(K(T)=Q_r\) pour trouver \(\xi_{eq}\)</li>
+                </ul>
+              </li>
+            </ul></li>
+          <li>Remplir la dernière ligne du tableau d’avancement.</li>
+        </ol>
+      </div>
+      
+      <h4>Acide acétique et ions fluor en solution</h4>
+      
+      <div>
+        Considérons la réaction matérialisée dans le tableau d’avancement ci-dessous. La constante
+        de réaction est donnée à \(298\,\rm{K}\) et vaut \(K = 2,51 \times 10^{-3}\). À l’instant
+        initial, on mélange un volume \(V_0=1\,\rm{L}\) à la concentration
+        \(c_1=10^{-1}\,\rm{mol/L}\) pour chaque réactif.
+      </div>
+      
+      <table>
+          <tr>
+            <td style="border: 0"></td>
+            <td style="border: 0">\(\rm{CH_3COOH_{(aq)}}\)</td>
+            <td style="border: 0" colspan="2">\(+\)</td>
+            <td style="border: 0">\(\rm{F^-_{(aq)}}\)</td>
+            <td style="border: 0" colspan="2">\(\rightleftharpoons\)</td>
+            <td style="border: 0">\(\rm{CH_3COO^-_{(aq)}}\)</td>
+            <td style="border: 0" colspan="2">\(+\)</td>
+            <td style="border: 0">\(\rm{HF_{(aq)}}\)</td>
+          </tr>
+          <tr>
+            <td>état initial (mol)</td>
+            <td colspan="2">\(c_1V_0\)</td>
+            <td style="border-right: double" colspan="3">\(c_1V_0\)</td>
+            <td colspan="3">\(0\)</td>
+            <td colspan="2">\(0\)</td>
+          </tr>
+          <tr>
+            <td>\(t\) (mol)</td>
+            <td colspan="2">\(c_1V_0 - \xi(t)\)</td>
+            <td style="border-right: double" colspan="3">\(c_1V_0 - \xi(t)\)</td>
+            <td colspan="3">\(\xi(t)\)</td>
+            <td colspan="2">\(\xi(t)\)</td>
+          </tr>
+        </table>
+      </div>
+      
+      <div>
+        La réaction n’est pas équilibrée et tous les constituants sont des espèces diluées.
+        L’activité de toutes les espèces vaut donc la concentration divisée par
+        \(c_0=1\,\rm{mol/L}\).<br />
+        Ainsi, on a&#x202f;:
+        $$
+          \quad a_{\rm{CH_3COOH}}(t) = \frac{[\rm{CH_3COOH}](t)}{c_0}
+        $$
+        $$
+          \quad a_{\rm{F^-}}(t) = \frac{[\rm{F^-}](t)}{c_0}
+        $$
+        $$
+          \quad a_{\rm{CH_3COO^-}}(t) = \frac{[\rm{CH_3COO^-}](t)}{c_0}
+        $$
+        $$
+          \quad a_{\rm{HF}}(t) = \frac{[\rm{HF}](t)}{c_0}
+        $$
+      </div>
+      
+      <div>
+        À l’aide du tableau d’avancement, on calcule les concentrations à l’instant \(t\). Le volume
+        total de la solution vaut \(2V_0\). Il vient&#x202f;:
+        $$
+          \quad a_{\rm{CH_3COOH}}(t) = \frac{c_1V_0 - \xi(t)}{2V_0c_0}
+        $$
+        $$
+          \quad a_{\rm{F^-}}(t) = \frac{c_1V_0 - \xi(t)}{2V_0c_0}
+        $$
+        $$
+          \quad a_{\rm{CH_3COO^-}}(t) = \frac{\xi(t)}{2V_0c_0}
+        $$
+        $$
+          \quad a_{\rm{HF}}(t) = \frac{\xi(t)}{2V_0c_0}
+        $$
+      </div>
+      
+      <div>
+        On calcule le quotient de réaction à l’instant \(t\), il vient&#x202f;:
+        $$
+          \quad Q_r(t) =
+            \frac{a_{\rm{CH_3COO^-}}(t) \times a_{\rm{HF}}(t)}
+              {a_{\rm{CH_3COOH}}(t) \times a_{\rm{F^-}}(t)}
+            = \frac{ \frac{\xi(t)}{2V_0c_0} \times \frac{\xi(t)}{2V_0c_0} }
+              { \frac{c_1V_0 - \xi(t)}{2V_0c_0} \times \frac{c_1V_0 - \xi(t)}{2V_0c_0} }
+            = \left( \frac{\xi(t)}{c_1V_0 - \xi(t)} \right) ^2
+        $$
+      </div>
+      
+      <div>
+        On vérifie bien que le quotient est sans dimension.<br />
+        On constate que \( Q_r(0) = 0 \lt K(T)\), la réaction va bien dans le sens direct.
+      </div>
+      
+      <div>
+        À l’équilibre, on a&#x202f;:
+        $$
+          \quad K = Q_r = \left( \frac{\xi_{eq}}{c_1V_0 - \xi_{eq}} \right) ^2
+        $$
+        Soit après calcul,
+        $$
+          \quad \xi_{eq} = \frac{ c_1V_0 \sqrt{K} }{ 1 + \sqrt{K} }
+        $$
+      </div>
+      
+      <div>
+        En faisant l’application numérique, on trouve \(\xi_{eq} = 4,8 \times 10^{−3}\,\rm{mol}\).
+        La quantité initiale de réactifs étant \(c_0V_0 = 10^{−1}\,\rm{mol}\), on constate que la
+        réaction n’a que très peu eu lieu, car le nombre final de produits reste faible devant le
+        nombre final de réactifs. Cela est dû à la faible valeur de la constante d’équilibre.
+      </div>
+      
+    </section>
+  </body>
+</html>
